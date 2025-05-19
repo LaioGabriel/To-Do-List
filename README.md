@@ -16,9 +16,9 @@ Este é um projeto de lista de tarefas simples e funcional, criado com HTML, CSS
 ---
 
 ## 📁 Estrutura de arquivos
-📦 Projeto
-├── index.html # Estrutura do site
-├── style.css # Estilos (tema escuro + design responsivo)
+📦 Projeto <br>
+├── index.html # Estrutura do site <br>
+├── style.css # Estilos (tema escuro + design responsivo) <br>
 └── index.js # Lógica principal (JS puro)
 
 
