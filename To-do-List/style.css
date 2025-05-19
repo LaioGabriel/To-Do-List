@@ -1,0 +1,96 @@
+:root{
+    --dark1: rgb(14, 14, 14);
+    --dark2: rgb(32, 32, 32);
+    --dark3: rgb(22, 22, 22);
+    --white: #fff;
+    --green1: rgb(103, 195, 80);
+    --green2: rgb(51, 149, 26);
+    --red1: rgb(184, 40, 35);
+    --red2: rgb(151, 1, 1);	   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+body{
+    background-color: var(--dark1);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.content-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#input-task,
+.btn-new-task{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+#input-task{
+    width: 20rem;
+    border-radius: 1rem ;
+}
+.btn-new-task{
+    background-color: var(--dark2);
+    color:var(--white) ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .6s;
+}
+.btn-new-task:hover{
+    background-color: var(--dark3);
+}
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+#to-do-list li:hover{
+    padding-left: 1rem;
+    transition: .6s;
+
+}
+#btn-erase{
+background-color: var(--green1);
+color: var(--white);
+font-size: 1rem;
+padding: .4rem .2rem;
+border-radius: 50%;
+border: none;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+margin-top: -.7rem;
+}
+#btn-erase:hover{
+    background-color: var(--green2);
+    transition: .6s
+}
